@@ -27,3 +27,5 @@ docker rmi $(docker images -q)
 ```
 docker pull mysql/mysql-server:latest
 ```
+
+MySQL reference: https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/docker-mysql-getting-started.html
