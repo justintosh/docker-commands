@@ -1,6 +1,12 @@
 # docker-commands
 Frequently used docker commands
 
+## Show all Containers
+
+```
+docker containers ls -all
+```
+
 ## Stop all Running Containers
 
 ```
@@ -13,14 +19,23 @@ docker stop $(docker ps -aq)
 docker rm $(docker ps -aq)
 ```
 
+## Show all Images
+
+```
+docker images
+```
+
 ## Remove all Images
 
 ```
 docker rmi $(docker images -q)
 ```
 
+## Force Remove Image
 
-
+```
+docker rmi -f <IMAGE ID>
+```
 
 ## Latest MySQL image
 
