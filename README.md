@@ -4,7 +4,7 @@ Frequently used docker commands
 ## Show all Containers
 
 ```
-docker containers ls -all
+docker container ls -all
 ```
 
 ## Stop all Running Containers
