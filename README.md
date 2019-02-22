@@ -37,6 +37,12 @@ docker rmi $(docker images -q)
 docker rmi -f <IMAGE ID>
 ```
 
+## Run Command in An Already Running Container
+
+```
+docker exec -it [container-id] bash
+```
+
 ## Latest MySQL image
 
 ```
