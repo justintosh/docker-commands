@@ -1,4 +1,4 @@
-# docker-commands
+# docker and git commands
 Frequently used docker commands
 
 ## Show all Containers
@@ -50,3 +50,30 @@ docker pull mysql/mysql-server:latest
 ```
 
 MySQL reference: https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/docker-mysql-getting-started.html
+
+
+
+------
+
+Add submodule
+
+```
+git submodule add <REPO_URL>
+```
+
+Clone submodule
+
+```
+git submodule init
+git submodule update
+```
+
+Pull update of submodules
+
+```
+git submodule update --init --recursive --remote
+```
+
+
+
+
