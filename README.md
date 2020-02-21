@@ -43,6 +43,12 @@ docker rmi -f <IMAGE ID>
 docker exec -it [container-id] bash
 ```
 
+## Docker-compose Up with Rebuild
+
+```
+docker-compose up --build
+```
+
 ## Latest MySQL image
 
 ```
