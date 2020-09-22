@@ -64,20 +64,28 @@ MySQL reference: https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/doc
 Add submodule
 
 ```
-git submodule add <REPO_URL>
+git submodule add <REPO_URL> [FOLDER_NAME]
 ```
 
 Clone submodule
 
 ```
-git submodule init
-git submodule update
+git submodule update --init --recursive
 ```
 
 Pull update of submodules
 
 ```
-git submodule update --init --recursive --remote
+git submodule update --recursive --remote
+```
+
+Update last commit message
+
+```
+git commit --amend
+# make changes
+Esc + :x + Enter on Vim to save and quit
+git push --force
 ```
 
 
