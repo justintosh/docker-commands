@@ -88,6 +88,15 @@ Esc + :x + Enter on Vim to save and quit
 git push --force
 ```
 
+Merging multiple commits into one
 
+```
+git rebase -i HEAD~x
+# make changes
+Esc + :x + Enter on Vim to save and quit
+# update commit messages, add # to ignore the line if necessary
+Esc + :x + Enter on Vim to save and quit
+git push origin <branch> -f
+```
 
 
