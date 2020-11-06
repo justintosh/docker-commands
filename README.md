@@ -37,6 +37,12 @@ docker rmi $(docker images -q)
 docker rmi -f <IMAGE ID>
 ```
 
+## Clear Docker Caches
+
+```
+docker system prune -a
+```
+
 ## Run Command in An Already Running Container
 
 ```
