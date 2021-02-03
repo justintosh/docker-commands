@@ -105,4 +105,9 @@ Esc + :x + Enter on Vim to save and quit
 git push origin <branch> -f
 ```
 
+Reset the local branch to follow remote
 
+```
+git fetch origin
+git reset --hard origin/master
+```
