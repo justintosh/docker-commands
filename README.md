@@ -111,3 +111,9 @@ Reset the local branch to follow remote
 git fetch origin
 git reset --hard origin/master
 ```
+
+Export full list of commits to a file
+
+```
+git rev-list --all --pretty=oneline > file.txt
+```
